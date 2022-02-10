@@ -5,8 +5,8 @@ Titanic's passenger survival prediction Web App. Inspired by Kaggle's [Titanic -
 ## Table of contents
 * [General Info](#general-info)
 * [Technologies](#technologies)
-* [Modules](#modules)
-* [UML](https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/README.md)
+* [Appearance](#appearance)
+* [Setup](#setup)
 
 ## General info
 This project project uses a Support-Vector Clustering (SVC) Machine Learning model to predict passenger survival based on the stats provided by user.

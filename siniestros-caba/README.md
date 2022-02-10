@@ -6,7 +6,7 @@ Análisis de la información sobre las víctimas de siniestros viales ocurridos 
 * [¿Cuántos accientes resultan fatales?](#cuántos-accientes-resultan-fatales)
 * [¿Cuáles son los medios de transporte más propensos a sufrir accidentes?](#cuáles-son-los-medios-de-transporte-más-propensos-a-sufrir-accidentes)
 * [¿En qué meses ocurren más accidentes?](#en-qué-meses-ocurren-más-accidentes)
-* [Mujeres vs Hombres: ¿Quiénes se ven involucrados en más accidentes?](mujeres-vs-Hombres:-Quiénes-se-ven-involucrados-en-más-accidentes)
+* [Mujeres vs Hombres: ¿Quiénes se ven involucrados en más accidentes?](mujeres-vs-Hombres:-quiénes-se-ven-involucrados-en-más-accidentes)
 * [¿En qué horarios ocurren más accidentes?](#en-qué-horarios-ocurren-más-accidentes)
 * [¿En qué barrios ocurren más accidentes?](#en-qué-barrios-ocurren-más-accidentes)
 

@@ -19,7 +19,7 @@ This project project uses a Support-Vector Clustering (SVC) Machine Learning mod
 
 ## Appearance
 
-![app](https://github.com/ivan-svetlich/data-analysis/blob/main/siniestros-caba/images/medios-transporte.png)
+![app](https://github.com/ivan-svetlich/data-analysis/blob/main/titanic-webApp/images/titanic.png)
 
 ##Setup
 1. **titanic_WebApp.py** and **train.csv** files must be in the same folder.

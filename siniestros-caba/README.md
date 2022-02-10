@@ -2,6 +2,12 @@
 
 Análisis de la información sobre las víctimas de siniestros viales ocurridos en CABA entre los años 2015 y 2018 provista por el Gobierno de la Ciudad.
 
+### Tecnologías
+En este proyecto se utilizaron:
+* Jupyter Notebook
+* pandas
+* Matplotlib
+
 ## Contenidos
 * [¿Cuántos accientes resultan fatales?](#cuántos-accientes-resultan-fatales)
 * [¿Cuáles son los medios de transporte más propensos a sufrir accidentes?](#cuáles-son-los-medios-de-transporte-más-propensos-a-sufrir-accidentes)

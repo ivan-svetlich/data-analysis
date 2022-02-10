@@ -1,4 +1,4 @@
-# Titanic survival prediction App
+# Titanic Survival Prediction App
 Titanic's passenger survival prediction Web App. Inspired by Kaggle's [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic) competition.
 
 

@@ -1,10 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import os
 
 pd.options.mode.chained_assignment = None
 # reading in the data from csv
-df_train = pd.read_csv(r'C:\Users\ivans\Documents\Data Analysis\titanic\train.csv')
+BASE_DIR = os.getcwd()
+csv_path = "train.csv"
+df_train = pd.read_csv(os.path.join(BASE_DIR, csv_path))
 
 #drop columns that won't be used for training the model
 df_x_train = df_train.drop(['PassengerId', 'Survived', 'Name', 'Ticket','Cabin'], axis=1)
@@ -72,9 +75,11 @@ df_prepared = full_pipeline.fit_transform(df_x_train)
 
 from sklearn.svm import SVC
 
-svm_clf = SVC(gamma="auto")
+svm_clf = SVC(gamma="auto", probability=True)
 svm_clf.fit(df_prepared, y_train)
 
+
+#Streamlit WebApp
 
 st.write("""
 # Passenger Survival Prediction App
@@ -85,14 +90,14 @@ st.sidebar.header('User Input Parameters')
 def user_input_features():
     p_class = st.sidebar.selectbox('Class', ('1', '2', '3'))
     sex = st.sidebar.selectbox('Sex', ('male', 'female'))
-    age = st.sidebar.number_input('Age')
-    sib_sp = st.sidebar.number_input('SibSp')
-    par_ch = st.sidebar.number_input('ParCh')
+    age = st.sidebar.number_input('Age', step=1)
+    sib_sp = st.sidebar.number_input('SibSp', step=1)
+    par_ch = st.sidebar.number_input('ParCh', step=1)
     fare = st.sidebar.number_input('Fare')
     embarked = st.sidebar.selectbox('Embarked', ('C', 'Q', 'S'))
     data = {'Pclass': int(p_class),
             'Sex': sex,
-            'Age': float(age),
+            'Age': int(age),
             'SibSp': int(sib_sp),
             'Parch': int(par_ch),
             'Fare': float(fare),
@@ -103,10 +108,15 @@ def user_input_features():
 df = user_input_features()
 df_prepared = full_pipeline.transform(df)
 
-st.subheader('User Input parameters')
+st.subheader('Selected parameters')
 st.write(df)
 
-prediction = svm_clf.predict(df_prepared)
+
+prediction = svm_clf.predict_proba(df_prepared)
 
 st.subheader('Prediction')
-st.write(prediction)
+
+survived = "Survived: {:.2f}%".format(100 * (prediction[0])[1])
+not_survived = "Not Survived: {:.2f}%".format(100 * (prediction[0])[0])
+st.write(survived)
+st.write(not_survived)

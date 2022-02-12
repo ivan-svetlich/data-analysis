@@ -1,4 +1,4 @@
-# Cryptocurrencies Volatility Visualization App
+# Cryptocurrencies' Price Volatility Visualization App
 Basic Web App that displays price evolution, standard deviation and coefficient of variation of the most popular cryptocurrencies.
 
 ## Table of contents

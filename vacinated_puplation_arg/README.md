@@ -7,4 +7,6 @@ En este proyecto se utilizaron:
 * Tableau
 
 ## Resultados
+[Ver en Tableau](https://public.tableau.com/views/VacinatedPopulationArgentina/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
+(dashboard_image)[https://github.com/ivan-svetlich/data-analysis/blob/main/vacinated_puplation_arg/images/tableau_dashboard_img.png]

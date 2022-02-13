@@ -4,7 +4,7 @@ Análisis de los datos de vacunación provistos por el gobierno nacional en Agos
 ## Tecnologías
 En este proyecto se utilizaron:
 * Microsoft SQL Server
-* Tableau
+* Tableau Public
 
 ## Resultados
 [Ver en Tableau](https://public.tableau.com/views/VacinatedPopulationArgentina/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)

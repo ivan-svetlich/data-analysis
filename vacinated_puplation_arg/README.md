@@ -8,4 +8,4 @@ En este proyecto se utilizaron:
 
 ## Resultados
 
-[resultados](https://public.tableau.com/app/profile/ivan.svetlich/viz/VacinatedPopulationArgentina/Dashboard1)
+[Dashboard en Tableu](https://public.tableau.com/views/VacinatedPopulationArgentina/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)

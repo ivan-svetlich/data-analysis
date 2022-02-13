@@ -3,7 +3,7 @@ Análisis de los datos de vacunación provistos por el gobierno nacional en Agos
 
 ## Tecnologías
 En este proyecto se utilizaron:
-* Microsofl SQL Server
+* Microsoft SQL Server
 * Tableau
 
 ## Resultados
